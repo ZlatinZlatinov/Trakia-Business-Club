@@ -1,0 +1,455 @@
+/*-- Layout --*/
+/*main color: #4c1b78*/
+
+body {
+    background-color: #4c1b78;
+    max-width: 100vw;
+    scroll-behavior: smooth;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+.width-wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+/*-- Main --*/
+
+
+/*#Intro */
+#intro {
+    position: relative;
+}
+
+#intro h1.site-theme {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 5.5em;
+    max-width: 20ch;
+}
+
+#intro img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+/*About*/
+#about {
+    background-color: white;
+    padding: 4em 0em;
+}
+
+#about .width-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+
+#about .width-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    flex-basis: 15%;
+    flex-shrink: 1;
+}
+
+#about .width-wrapper h2 {
+    font-size: 2.5em;
+}
+
+#about .width-wrapper p {
+    font-size: 1.7em;
+    color: #434443;
+    max-width: 40ch;
+    text-align: justify;
+}
+
+.join-btn {
+    background-color: #4c1b78;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0.5em;
+    display: block;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    align-self: center;
+    width: 100%;
+}
+
+/*-- #Goals --*/
+#contacts,
+#details,
+#events,
+#goals,
+#team,
+.pagination {
+    background-color: #e6e6e6;
+    padding: 2em 0em;
+}
+
+#team h2,
+#goals h2,
+#events h2,
+#contacts h2,
+#faq h2 {
+    text-align: center;
+    padding-bottom: 1.5em;
+    font-size: 2.5em;
+}
+
+#team .width-wrapper,
+#goals .width-wrapper,
+#details .width-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+}
+
+.goal-card {
+    display: flex;
+    gap: 0.8em;
+    font-size: 1.5em;
+}
+
+.goal-card p {
+    text-align: justify;
+}
+
+.goal-card i {
+    text-align: center;
+    background-color: #e47b00;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+/*-- #Team --*/
+.team-card {
+    padding: 2em;
+    text-align: center;
+}
+
+.team-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-card h3 {
+    font-size: 1.5em;
+}
+
+/*-- #Events --*/
+#events .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5em;
+}
+
+.event-card {
+    position: relative;
+}
+
+.event-card a {
+    text-decoration: none;
+}
+
+.event-card p {
+    color: #9f253a;
+    font-size: 1.1em;
+}
+
+.event-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.event-date {
+    background-color: #e6e6e6;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5%;
+}
+
+.event-title {
+    color: #99182c;
+    font-size: 1.2em;
+    margin: 0.5em 0em;
+}
+
+/*-- Pagination ---*/
+.pagination {
+    display: flex;
+    align-content: center;
+    padding-top: 2em;
+}
+
+.pagination ul {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+}
+
+.pagination ul li {
+    border-right: 1px solid #777;
+    padding: 0em 1em;
+}
+
+.pagination ul li:last-child {
+    border: none;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #6a6565;
+    font-size: 1.3em;
+}
+
+.pagination ul li a:active {
+    border-bottom: 0.8px solid #777;
+}
+
+/*-- #Contacts --*/
+#contacts {
+    padding: 5em 0em;
+}
+
+#contacts .width-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+}
+
+.contact-from form {
+    font-size: 1.7em;
+    color: #99182c;
+}
+
+.contact-from label {
+    display: block;
+}
+
+.contact-from textarea {
+    width: 100%;
+    height: 8em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.input-container input {
+    width: 100%;
+    height: 2em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.submit-btn {
+    background-color: #4c1b78;
+    color: white;
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+/*address*/
+#contacts address {
+    position: relative;
+}
+
+.contact-info {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    font-size: 1.5em;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%, -60%);
+}
+
+.contact-info li span {
+    font-size: 1.2em;
+    color: #99182c;
+}
+
+.contact-info li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-- Details --*/
+#details {
+    font-size: 1.5em;
+    padding: 5em 0em;
+}
+
+#details .width-wrapper {
+    gap: 4em;
+    justify-content: space-evenly;
+}
+
+.event-description {
+    padding: 0em 4em;
+    grid-column: 2 / span 2;
+    width: 85%;
+    place-self: center;
+}
+
+.event-description p{
+    padding-bottom: 1.5em;
+}
+.event-description img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+/*-- FAQ questions --*/
+#faq {
+   padding: 2em 0em; 
+   background-color: #e6e6e6; 
+}
+
+#faq .width-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.faq-card {
+    width: 80%;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.59em;
+}
+
+.faq-card .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}  
+
+.faq-card .active {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.accordion i {
+    font-size: 1.5em;
+    color: #4c1b78;
+} 
+
+.faq-card .panel {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    padding: 1em 1.5em;
+    display: none;
+    transition: ease-in-out display 1s;
+}
+
+/*Back-to-top*/
+#back-to-top {
+    position: fixed;
+    display: block;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    background-color: #4c1b78;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 3em;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*-- Footer --*/
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 0;
+    font-size: 1.5em;
+}
+
+.site-footer p {
+    color: #777;
+}
+
+.site-footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none inside;
+    gap: 1.5em;
+}
+
+.site-footer ul a {
+    text-decoration: none;
+    color: #000;
+}

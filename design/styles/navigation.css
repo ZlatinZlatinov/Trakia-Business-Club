@@ -1,0 +1,91 @@
+header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+nav.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    list-style: none inside;
+    gap: 5em;
+}
+
+nav.main-nav ul a {
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: goldenrod;
+    letter-spacing: 1.2px;
+}
+
+nav.main-nav ul a:hover {
+    color: white;
+}
+
+nav.main-nav ul a:active {
+    color: #dea556;
+} 
+
+p.site-logo a img{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* ---- User Icon ----*/
+.user {
+    position: relative;
+    display: inline-block;
+} 
+
+/* .user a {
+    text-decoration: none;
+    color: #777;
+} */
+
+.user-icon a.icn {
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #777;
+} 
+
+.user-icon{
+    list-style: none inside;
+}
+
+.user-icon a:hover {
+    color: #dea556;
+}
+
+.user ul ul {
+    display: none;
+}
+
+.user-icon li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1em;
+    position: absolute;
+    z-index: 10;
+    list-style: none inside;
+    background-color: #ddd;
+    padding: 0.5em;
+    width: 15em;
+    left: -4.5em;
+}
+
+.user-icon ul a {
+    text-decoration: none;
+    color: #777;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
