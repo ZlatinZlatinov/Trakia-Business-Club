@@ -14,7 +14,7 @@ ol {
 }
 
 .width-wrapper {
-    max-width: 80vw;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
@@ -51,23 +51,21 @@ ol {
 }
 
 #about .width-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
 }
 
 #about .about-us {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-shrink: 1;
 }
 
 #about .width-wrapper img {
     display: block;
     width: 100%;
     height: auto;
-    flex-basis: 15%;
-    flex-shrink: 1;
 }
 
 #about .width-wrapper h2 {
@@ -77,7 +75,6 @@ ol {
 #about .width-wrapper p {
     font-size: 1.7em;
     color: #434443;
-    max-width: 40ch;
     text-align: justify;
 }
 
@@ -111,7 +108,8 @@ ol {
 #goals h2,
 #events h2,
 #contacts h2,
-#faq h2 {
+#faq h2,
+#partners h2 {
     text-align: center;
     padding-bottom: 1.5em;
     font-size: 2.5em;
@@ -342,9 +340,10 @@ ol {
     place-self: center;
 }
 
-.event-description p{
+.event-description p {
     padding-bottom: 1.5em;
 }
+
 .event-description img {
     display: block;
     width: 100%;
@@ -354,8 +353,8 @@ ol {
 
 /*-- FAQ questions --*/
 #faq {
-   padding: 2em 0em; 
-   background-color: #e6e6e6; 
+    padding: 2em 0em;
+    background-color: #e6e6e6;
 }
 
 #faq .width-wrapper {
@@ -387,7 +386,7 @@ ol {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-}  
+}
 
 .faq-card .active {
     border: none;
@@ -397,7 +396,7 @@ ol {
 .accordion i {
     font-size: 1.5em;
     color: #4c1b78;
-} 
+}
 
 .faq-card .panel {
     color: rgba(0, 0, 0, 0.7);
@@ -427,6 +426,37 @@ ol {
     bottom: 0;
     right: 0;
     z-index: 99;
+}
+
+/*-- #Partners --*/
+#partners {
+    background-color: white;
+    padding: 4em 0em;
+}
+
+#partners .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+}
+
+.partner-card {
+    padding: 3em;
+    background-color: #e6e6e6;
+    border-radius: 0.5em;
+}
+
+.partner-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.partner-card img:hover {
+    filter: none;
 }
 
 /*-- Footer --*/
