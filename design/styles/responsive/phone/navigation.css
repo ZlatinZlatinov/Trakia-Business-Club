@@ -1,5 +1,5 @@
 /*Navigation */    
-
+@media screen and (max-width: 603px){
     /*Animations */ 
     #menu-toggle:checked + .menu__btn > span {
         transform: rotate(45deg);
@@ -95,4 +95,5 @@
 
     p.site-logo a img{
         width: 45%;
-    }
+    } 
+}
