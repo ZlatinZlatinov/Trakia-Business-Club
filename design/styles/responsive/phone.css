@@ -190,6 +190,10 @@
         font-size: 1.6em;
     }
 
+    .partner-card {
+        padding: 1em;
+    }
+
     #partners .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
         gap: 3em;
