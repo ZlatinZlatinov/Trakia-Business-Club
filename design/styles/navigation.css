@@ -1,3 +1,11 @@
+.menu-icon { /*For hambutger menu*/
+    display: none; 
+}
+
+#menu-toggle{
+    display: none; /*For hambutger menu*/
+}
+
 header.site-header {
     display: flex;
     justify-content: space-between;
