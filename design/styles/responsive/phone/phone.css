@@ -87,20 +87,51 @@
     }
 
     /*-- #Partners --*/
-    #partners {
-        padding: 2em 0em;
-    }
-
     #partners h2{
         font-size: 1.6em;
     }
 
-    .partner-card {
-        padding: 1em;
-    }
-
     #partners .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
-        gap: 3em;
+    }
+
+    /*-- #Events --*/
+    #events .width-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .event-card p {
+        font-size: 1em;
+    }
+
+    .event-date {
+        font-size: 0.8em;
+    }
+
+    .event-title {
+        font-size: 1.2em;
+    }
+
+    /*-- #Contacts --*/
+    #contacts .width-wrapper {
+        grid-template-columns: auto;
+    }
+
+    .contact-from form {
+        font-size: 1.4em;
+    }
+
+    /*address*/
+    .contact-info {
+        position: relative;
+        font-size: 1.3em;
+    }
+
+    .contact-info li span {
+        font-size: 1em;
+    }
+
+    #map iframe{
+        height: 400px;
     }
 }

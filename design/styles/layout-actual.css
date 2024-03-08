@@ -483,3 +483,9 @@ ol {
     text-decoration: none;
     color: #000;
 }
+
+/*-- Map --*/
+#map iframe{
+    width: 100%;
+    height: 700px;
+}

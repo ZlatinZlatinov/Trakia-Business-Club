@@ -1,8 +1,8 @@
 /*-- Footer --*/
 @media screen and (max-width: 603px){
 
-.site-footer {
-    font-size: 1em;
-} 
-
+    .site-footer {
+        font-size: 1em;
+        gap: 2em;
+    } 
 }
