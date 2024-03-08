@@ -51,23 +51,21 @@ ol {
 }
 
 #about .width-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
 }
 
 #about .about-us {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-shrink: 1;
 }
 
 #about .width-wrapper img {
     display: block;
     width: 100%;
     height: auto;
-    flex-basis: 15%;
-    flex-shrink: 1;
 }
 
 #about .width-wrapper h2 {
@@ -77,7 +75,6 @@ ol {
 #about .width-wrapper p {
     font-size: 1.7em;
     color: #434443;
-    max-width: 40ch;
     text-align: justify;
 }
 
