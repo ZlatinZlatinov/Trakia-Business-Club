@@ -9,3 +9,6 @@
 
 /* -- Navigation -- */
 @import url(navigation.css);
+
+/* -- Responsive -- */
+@import url(responsive/responsive.css); 
