@@ -1,0 +1,106 @@
+@import url(navigation.css);
+@import url(footer.css);
+
+@media screen and (max-width: 603px){
+    
+    /* ---- User Icon ----*/
+    .user-icon{
+        display: none;
+    }
+
+    /*#Intro */
+    #intro h1.site-theme {
+        font-size: 1.6em;
+    }
+
+    /*About*/
+    #about .width-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4em;
+    }
+
+    #about .width-wrapper img {
+        display: block;
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+
+    #about .width-wrapper h2 {
+        font-size: 1.6em;
+        text-align: center;
+        margin-bottom: 0.5em;
+    }
+
+    #about .width-wrapper p {
+        font-size: 16px;
+    }
+
+    .join-btn {
+        font-size: 16px;
+
+    }
+
+    /*-- #Goals --*/ 
+    #team h2,
+    #goals h2,
+    #events h2,
+    #contacts h2,
+    #faq h2 {
+        text-align: center;
+        padding-bottom: 1em;
+        font-size: 1.6em;
+    }
+
+    #team .width-wrapper,
+    #goals .width-wrapper,
+    #details .width-wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1em;
+    }
+
+    .goal-card {
+        display: flex;
+        gap: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .goal-card p {
+        text-align: justify;
+    }
+
+    .goal-card i {
+        text-align: center;
+        background-color: #e47b00;
+        padding: 1em;
+        border-radius: 50%;
+    }
+
+    /*Back-to-top*/
+    #back-to-top {
+        padding: 0.5em;
+        font-size: 2em;
+        border-radius: 50%;
+        margin: 4.1em 1.1em;
+    }
+
+    /*-- #Partners --*/
+    #partners {
+        padding: 2em 0em;
+    }
+
+    #partners h2{
+        font-size: 1.6em;
+    }
+
+    .partner-card {
+        padding: 1em;
+    }
+
+    #partners .width-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3em;
+    }
+}
