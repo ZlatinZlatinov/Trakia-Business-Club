@@ -133,5 +133,13 @@
 
     #map iframe{
         height: 400px;
+    } 
+
+    #not-found p {
+        font-size: 5em;
+    } 
+
+    #not-found p span{
+        font-size: 2em;
     }
 }
