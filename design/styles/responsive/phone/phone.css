@@ -2,7 +2,10 @@
 @import url(footer.css);
 
 @media screen and (max-width: 603px){
-    
+    .width-wrapper {
+        max-width: 80vw;
+    }
+
     /* ---- User Icon ----*/
     .user-icon{
         display: none;
@@ -93,6 +96,15 @@
 
     #partners .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1.5em;
+    } 
+
+    .partner-card {
+        padding: 1em;
+    } 
+
+    .partner-card img {
+        filter: none;
     }
 
     /*-- #Events --*/
@@ -142,5 +154,15 @@
 
     #not-found p span{
         font-size: 2em;
+    } 
+
+    /*auth*/
+    .auth-container {
+        font-size: 1em;
+        width: 90%;
+    } 
+
+    .ghost {
+        width: 80%;
     }
 }
