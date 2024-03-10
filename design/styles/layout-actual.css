@@ -268,7 +268,7 @@ ol {
     border-radius: 0.5em;
 }
 
-.input-container {
+#contacts .input-container {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1.5em;
@@ -305,7 +305,7 @@ ol {
     position: relative;
 }
 
-.contact-info {
+#contacts .contact-info {
     position: absolute;
     list-style: none;
     display: flex;

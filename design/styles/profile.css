@@ -13,7 +13,7 @@
 }
 
 /*Grid Container*/
-.grid-container {
+#profile .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -24,7 +24,7 @@
     min-height: 75vh;
 }
 
-.item {
+.grid-container .item {
     padding: 1em;
     border-radius: 0.5em;
     background-color: white;
@@ -32,7 +32,7 @@
 }   
 
 /*Side item*/
-.side-item {
+.grid-container .side-item {
     grid-column: 1;
     grid-row: 1 / span 3;
     display: flex;
@@ -43,13 +43,13 @@
 } 
 
 /*Main item*/
-.main-item {
+.grid-container .main-item {
     grid-column: 2 / span 3;
     grid-row: 1 / span 2;
 }
 
 /*Bottom Item*/
-.bottom-item {
+.grid-container .bottom-item {
     grid-column: 2 / span 3;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
 } 
 
 /*Profile card*/ 
-.profile-card{
+.side-item .profile-card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
