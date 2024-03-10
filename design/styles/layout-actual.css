@@ -237,7 +237,8 @@ ol {
 }
 
 /*-- #Contacts --*/
-#contacts {
+#contacts, 
+#create {
     padding: 5em 0em;
 }
 
@@ -247,7 +248,8 @@ ol {
     gap: 2em;
 }
 
-.contact-from form {
+.contact-from form, 
+.create-form {
     font-size: 1.7em;
     color: #99182c;
 }
@@ -256,7 +258,8 @@ ol {
     display: block;
 }
 
-.contact-from textarea {
+.contact-from textarea,
+.create-form textarea {
     width: 100%;
     height: 8em;
     padding: 0.5em;
@@ -271,7 +274,8 @@ ol {
     margin-bottom: 1.5em;
 }
 
-.input-container input {
+.input-container input, 
+.create-form input {
     width: 100%;
     height: 2em;
     padding: 0.5em;

@@ -1,0 +1,29 @@
+/*#Create*/ 
+
+#create {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+#create .create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    background-color: #e6e6e6;
+    padding: 4em;
+    border-radius: 0.5em;
+} 
+
+.create-form label {
+    display: block;
+    text-align: left;
+} 
+
+#create .create-form div {
+    width: 100%;
+} 
