@@ -256,6 +256,7 @@ ol {
 
 .contact-from label {
     display: block;
+    text-align: left;
 }
 
 .contact-from textarea,
@@ -272,6 +273,7 @@ ol {
     grid-template-columns: auto auto;
     gap: 1.5em;
     margin-bottom: 1.5em;
+    width: 100%;
 }
 
 .input-container input, 
