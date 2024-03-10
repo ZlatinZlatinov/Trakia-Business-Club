@@ -164,5 +164,29 @@
 
     .ghost {
         width: 80%;
+    } 
+
+    /*profile*/ 
+    #profile .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 1.2em;
+        grid-area: 1.5em;
+    } 
+
+    #profile .grid-container .side-item {
+        grid-row: 1;
+    }
+
+    #profile .grid-container .main-item {
+        grid-column: 1;
+        grid-row: 2;
+    } 
+
+    #profile .grid-container .bottom-item {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #profile .grid-container .option-btns {
+        flex-direction: column;
     }
 }

@@ -11,7 +11,14 @@
 @import url(navigation.css); 
 
 /* -- Auth -- */
-@import url(auth.css);
+@import url(auth.css); 
+
+/* -- Create -- */
+@import url(create.css); 
+
+/* -- Profile -- */
+
+@import url(profile.css);
 
 /* -- Responsive -- */
 @import url(responsive/responsive.css); 
