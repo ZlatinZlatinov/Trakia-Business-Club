@@ -1,0 +1,28 @@
+/*-- Details --*/
+#details {
+    font-size: 1.5em;
+    padding: 5em 0em;
+}
+
+#details .width-wrapper {
+    gap: 4em;
+    justify-content: space-evenly;
+}
+
+.event-description {
+    padding: 0em 4em;
+    grid-column: 2 / span 2;
+    width: 85%;
+    place-self: center;
+}
+
+.event-description p {
+    padding-bottom: 1.5em;
+}
+
+.event-description img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+}

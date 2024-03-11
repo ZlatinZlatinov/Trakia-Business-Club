@@ -1,0 +1,46 @@
+/*-- #Goals --*/
+#contacts,
+#details,
+#events,
+#goals,
+#team,
+.pagination {
+    background-color: #e6e6e6;
+    padding: 2em 0em;
+}
+
+#team h2,
+#goals h2,
+#events h2,
+#contacts h2,
+#faq h2,
+#partners h2 {
+    text-align: center;
+    padding-bottom: 1.5em;
+    font-size: 2.5em;
+}
+
+#team .width-wrapper,
+#goals .width-wrapper,
+#details .width-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+}
+
+.goal-card {
+    display: flex;
+    gap: 0.8em;
+    font-size: 1.5em;
+}
+
+.goal-card p {
+    text-align: justify;
+}
+
+.goal-card i {
+    text-align: center;
+    background-color: #e47b00;
+    padding: 1em;
+    border-radius: 50%;
+}
