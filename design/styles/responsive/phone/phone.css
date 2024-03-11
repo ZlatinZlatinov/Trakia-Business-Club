@@ -131,16 +131,18 @@
 
     .contact-from form {
         font-size: 1.4em;
+        font-weight: bold;
     }
 
     /*address*/
-    .contact-info {
+    #contacts .contact-info {
         position: relative;
         font-size: 1.3em;
     }
 
     .contact-info li span {
         font-size: 1em;
+        font-weight: bold;
     }
 
     #map iframe{
@@ -189,4 +191,13 @@
     #profile .grid-container .option-btns {
         flex-direction: column;
     }
+
+    /*#Create*/ 
+    #create .create-form h2{
+        font-size: 1.2em;
+    }
+
+    .create-form label {
+        font-size: 1em;
+    } 
 }

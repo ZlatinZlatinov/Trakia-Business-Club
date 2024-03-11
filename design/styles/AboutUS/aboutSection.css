@@ -1,0 +1,48 @@
+/*About*/
+#about {
+    background-color: white;
+    padding: 4em 0em;
+}
+
+#about .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4em;
+}
+
+#about .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about .width-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#about .width-wrapper h2 {
+    font-size: 2.5em;
+}
+
+#about .width-wrapper p {
+    font-size: 1.7em;
+    color: #434443;
+    text-align: justify;
+}
+
+.join-btn {
+    background-color: #4c1b78;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 0.5em;
+    display: block;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    align-self: center;
+    width: 100%;
+}

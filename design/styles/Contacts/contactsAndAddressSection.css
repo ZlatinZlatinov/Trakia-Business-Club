@@ -1,0 +1,90 @@
+/*-- #Contacts --*/
+#contacts, 
+#create {
+    padding: 5em 0em;
+}
+
+#contacts .width-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2em;
+}
+
+.contact-from form, 
+.create-form {
+    font-size: 1.7em;
+    color: #99182c;
+}
+
+.contact-from label {
+    display: block;
+    text-align: left;
+}
+
+.contact-from textarea,
+.create-form textarea {
+    width: 100%;
+    height: 8em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#contacts .input-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+
+.input-container input, 
+.create-form input {
+    width: 100%;
+    height: 2em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.submit-btn {
+    background-color: #4c1b78;
+    color: white;
+    width: 100%;
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}
+
+/*address*/
+#contacts address {
+    position: relative;
+}
+
+#contacts .contact-info {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    font-size: 1.5em;
+    top: 60%;
+    left: 40%;
+    transform: translate(-40%, -60%);
+}
+
+.contact-info li span {
+    font-size: 1.2em;
+    color: #99182c;
+}
+
+.contact-info li a {
+    text-decoration: none;
+    color: black;
+}
