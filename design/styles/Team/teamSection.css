@@ -1,0 +1,16 @@
+/*-- #Team --*/
+.team-card {
+    padding: 2em;
+    text-align: center;
+}
+
+.team-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-card h3 {
+    font-size: 1.5em;
+}
