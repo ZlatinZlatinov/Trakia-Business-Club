@@ -1,6 +1,12 @@
 /*-- #Team --*/
+#team .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5em;
+}
+
 .team-card {
-    padding: 2em;
+    /* padding: 2em; */
     text-align: center;
 }
 
