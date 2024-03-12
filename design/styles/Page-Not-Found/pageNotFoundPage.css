@@ -11,7 +11,7 @@
 }
 
 #not-found p {
-    background: url(../images/uni-img.jpg);
+    background: url(../../images/uni-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
