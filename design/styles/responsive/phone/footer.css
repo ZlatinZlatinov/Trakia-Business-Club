@@ -1,8 +1,29 @@
 /*-- Footer --*/
-@media screen and (max-width: 603px){
+@media screen and (max-width: 603px) {
 
-    .site-footer {
+    #site-footer .site-footer {
         font-size: 1em;
         gap: 2em;
-    } 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #site-footer .site-footer .footer-nav {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #site-footer .site-footer .site-logo a {
+        display: flex;
+        justify-content: center;
+    }
+
+    #site-footer .site-footer ul a {
+        font-size: 1.2em;
+    }
+
+    #site-footer .copyright {
+        font-size: 1em;
+    }
 }

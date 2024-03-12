@@ -56,7 +56,6 @@
         font-size: 1.6em;
     }
 
-    #team .width-wrapper,
     #goals .width-wrapper,
     #details .width-wrapper {
         display: grid;
@@ -129,9 +128,13 @@
         grid-template-columns: auto;
     }
 
-    .contact-from form {
+    .contact-form form {
         font-size: 1.4em;
         font-weight: bold;
+    } 
+
+    #contacts .contact-form form .input-container {
+        grid-template-columns: auto;
     }
 
     /*address*/
@@ -199,5 +202,10 @@
 
     .create-form label {
         font-size: 1em;
-    } 
+    }  
+
+    /*Team*/
+    #team .width-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

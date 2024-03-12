@@ -1,24 +1,31 @@
 /*-- Footer --*/
-.site-footer {
+#site-footer .site-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5em 0;
+    padding-top: 2em;
     font-size: 1.5em;
 }
 
-.site-footer p {
-    color: #777;
+#site-footer .copyright{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 0.5em 0em;
 }
 
-.site-footer ul {
+#site-footer .site-footer ul {
     display: flex;
     justify-content: space-between;
     list-style: none inside;
     gap: 1.5em;
 }
 
-.site-footer ul a {
+#site-footer .site-footer ul a {
     text-decoration: none;
-    color: #000;
-}
+    color: white;
+} 
+
+#site-footer .site-footer .footer-nav {
+    flex-direction: column;
+} 

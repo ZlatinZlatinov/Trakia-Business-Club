@@ -11,11 +11,12 @@
 }
 
 #not-found p {
-    background: url(../images/uni-img.jpg);
+    background: url(../../images/uni-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding: 0; 
