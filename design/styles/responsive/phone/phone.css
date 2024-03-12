@@ -129,9 +129,13 @@
         grid-template-columns: auto;
     }
 
-    .contact-from form {
+    .contact-form form {
         font-size: 1.4em;
         font-weight: bold;
+    } 
+
+    #contacts .contact-form form .input-container {
+        grid-template-columns: auto;
     }
 
     /*address*/

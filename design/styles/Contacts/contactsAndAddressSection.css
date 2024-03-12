@@ -10,18 +10,18 @@
     gap: 2em;
 }
 
-.contact-from form, 
+.contact-form form, 
 .create-form {
     font-size: 1.7em;
     color: #99182c;
 }
 
-.contact-from label {
+.contact-form label {
     display: block;
     text-align: left;
 }
 
-.contact-from textarea,
+.contact-form textarea,
 .create-form textarea {
     width: 100%;
     height: 8em;
