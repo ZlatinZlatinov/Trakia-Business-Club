@@ -11,6 +11,7 @@
 
 #team h2,
 #goals h2,
+#details-admin h2,
 #events h2,
 #contacts h2,
 #faq h2,
@@ -20,10 +21,9 @@
     font-size: 2.5em;
 }
 
-#goals .width-wrapper,
-#details .width-wrapper {
+#goals .width-wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1em;
 }
 

@@ -207,5 +207,11 @@
     /*Team*/
     #team .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
+    } 
+
+    /*Eveit-Details*/
+    #details-admin .admin-buttons {
+        flex-direction: column;
+        align-items: center;
     }
 }
