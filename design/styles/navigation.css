@@ -10,7 +10,8 @@ header.site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
+    padding: 1em 0em;
+    gap: 1em;
 }
 
 nav.main-nav ul {
@@ -19,6 +20,7 @@ nav.main-nav ul {
     align-content: center;
     list-style: none inside;
     gap: 5em;
+    text-align: center;
 }
 
 nav.main-nav ul a {
@@ -37,12 +39,25 @@ nav.main-nav ul a:active {
     color: #dea556;
 } 
 
+/*Site-logo*/
+p.site-logo {
+    padding-bottom: 0em;
+}
+
+p.site-logo a{
+    width: 165px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 p.site-logo a img{
     display: block;
     width: 100%;
     height: auto;
-    background-color: white;
-    border-radius: 50%;
 }
 
 /* ---- User Icon ----*/
