@@ -70,6 +70,53 @@
         font-size: 1.3em;
     } 
 
+    /*-- #Team --*/
+    #team .width-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5em;
+    }
+
+    .team-card {
+        /* padding: 2em; */
+        text-align: center;
+    }
+
+    .team-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .team-card h3 {
+        font-size: 1.5em;
+    }
+
+    /*-- #Contacts --*/
+    #contacts .width-wrapper {
+        gap: 3em;
+    }
+
+    .contact-form form, 
+    .create-form {
+        font-size: 1.3em;
+    }
+
+    #contacts .input-container {
+        gap: 1em;
+    }
+
+    /*address*/
+    #contacts .contact-info {
+        font-size: 1.2em;
+    }
+
+    #map iframe {
+        width: 100%;
+        height: 500px;
+    }
+
     /*Footer*/
     #site-footer .site-footer {
         display: flex;
