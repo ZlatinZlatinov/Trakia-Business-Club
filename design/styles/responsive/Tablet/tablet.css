@@ -1,36 +1,77 @@
 @media screen and (min-width > 604px) and (min-width <= 1024px) {
-    /* .width-wrapper {
-        max-width: 80vw;
-    } */
+    .width-wrapper {
+        max-width: 81vw;
+    }
+
+    /*Navigation*/
+    header.site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 0em;
+        gap: 1em;
+    }
+    
+    nav.main-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        list-style: none inside;
+        gap: 3em;
+        text-align: center;
+    }
+    
+    nav.main-nav ul a {
+        text-decoration: none;
+        font-size: 1.3em;
+        text-transform: uppercase;
+        color: goldenrod;
+        letter-spacing: 1.2px;
+    }
+    
+    nav.main-nav ul a:hover {
+        color: white;
+    }
+    
+    nav.main-nav ul a:active {
+        color: #dea556;
+    } 
+    
+    /*Site-logo*/
+    p.site-logo {
+        padding-bottom: 0em;
+    }
+    
+    p.site-logo a{
+        width: 150px;
+        height: 110px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /*#Intro */
     #intro h1.site-theme {
-        font-size: 4em;
+        font-size: 3.6em;
     }
+
     /*About*/
     #about .width-wrapper h2 {
-        font-size: 2.2em;
+        font-size: 2.3em;
     }
 
     #about .width-wrapper p {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .join-btn {
         font-size: 1.3em;
+        width: 100%;
     }
 
     /*-- #Goals --*/
-    #contacts,
-    #details,
-    #events,
-    #goals,
-    #team,
-    .pagination {
-        background-color: #e6e6e6;
-        padding: 2em 0em;
-    }
-
     #about h2,
     #team h2,
     #goals h2,
@@ -39,8 +80,6 @@
     #contacts h2,
     #faq h2,
     #partners h2 {
-        text-align: center;
-        padding-bottom: 1.5em;
         font-size: 2.2em;
     }
 
@@ -51,23 +90,15 @@
     }
 
     .goal-card {
-        display: flex;
-        gap: 0.8em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     } 
 
-    .goal-card h3 {
-        padding-bottom: 0.5em;
-    }
-
-    .goal-card p {
-        text-align: justify;
-    }
-
-    .goal-card i {
-        text-align: center;
-        background-color: #e47b00;
-        padding: 1em;
-        border-radius: 50%;
+    /*Footer*/
+    #site-footer .site-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2em;
+        font-size: 1.5em;
     }
 }
