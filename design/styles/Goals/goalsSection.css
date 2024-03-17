@@ -9,6 +9,7 @@
     padding: 2em 0em;
 }
 
+#about h2,
 #team h2,
 #goals h2,
 #details-admin h2,
@@ -31,6 +32,10 @@
     display: flex;
     gap: 0.8em;
     font-size: 1.5em;
+} 
+
+.goal-card h3 {
+    padding-bottom: 0.5em;
 }
 
 .goal-card p {

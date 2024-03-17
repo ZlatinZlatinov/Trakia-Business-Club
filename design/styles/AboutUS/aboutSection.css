@@ -13,13 +13,15 @@
 #about .about-us {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #about .width-wrapper img {
     display: block;
     width: 100%;
     height: auto;
+    align-self: center;
 }
 
 #about .width-wrapper h2 {
@@ -27,7 +29,7 @@
 }
 
 #about .width-wrapper p {
-    font-size: 1.7em;
+    font-size: 1.6em;
     color: #434443;
     text-align: justify;
 }
@@ -44,5 +46,5 @@
     border: none;
     border-radius: 0.5em;
     align-self: center;
-    width: 100%;
+    width: 80%;
 }
