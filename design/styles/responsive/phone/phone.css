@@ -27,7 +27,7 @@
         display: block;
         width: 100%;
         height: auto;
-        order: 2;
+        order: -1;
     }
 
     #about .width-wrapper h2 {

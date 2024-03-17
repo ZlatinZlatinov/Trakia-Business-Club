@@ -98,7 +98,8 @@
         background-color: gray; 
     }
 
-    p.site-logo a img{
-        width: 45%;
+    p.site-logo a {
+        width: 110px;
+        height: 85px;
     }  
 }
