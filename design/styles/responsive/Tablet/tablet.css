@@ -94,22 +94,29 @@
     }
 
     /*-- #Contacts --*/
+    /*-- #Contacts --*/
     #contacts .width-wrapper {
-        gap: 3em;
+        grid-template-columns: auto;
     }
 
-    .contact-form form, 
-    .create-form {
-        font-size: 1.3em;
-    }
+    .contact-form form {
+        font-size: 1.4em;
+        font-weight: bold;
+    } 
 
-    #contacts .input-container {
-        gap: 1em;
+    #contacts .contact-form form .input-container {
+        grid-template-columns: auto;
     }
 
     /*address*/
     #contacts .contact-info {
-        font-size: 1.2em;
+        position: relative;
+        font-size: 1.3em;
+    }
+
+    .contact-info li span {
+        font-size: 1em;
+        font-weight: bold;
     }
 
     #map iframe {
