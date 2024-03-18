@@ -1,2 +1,5 @@
 /* -- Responsive for Phones -- */ 
 @import url(phone/phone.css);
+
+/* -- Reponsive for Tablets and small screens --*/
+@import url(tablet/tablet.css);
