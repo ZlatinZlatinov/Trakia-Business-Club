@@ -13,7 +13,7 @@
 
     /*#Intro */
     #intro h1.site-theme {
-        font-size: 1.6em;
+        font-size: 2em;
     }
 
     /*About*/
@@ -50,6 +50,7 @@
     #goals h2,
     #events h2,
     #contacts h2,
+    #about h2,
     #faq h2 {
         text-align: center;
         padding-bottom: 1em;
