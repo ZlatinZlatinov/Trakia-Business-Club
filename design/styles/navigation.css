@@ -17,7 +17,7 @@ header.site-header {
 nav.main-nav ul {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     list-style: none inside;
     gap: 5em;
     text-align: center;

@@ -27,6 +27,11 @@
     p.site-logo a{
         width: 100px;
         height: 70px;
+    } 
+
+    /*User icon*/
+    .user-icon a.icn {
+        font-size: 2.5em;
     }
 
     /*#Intro */
