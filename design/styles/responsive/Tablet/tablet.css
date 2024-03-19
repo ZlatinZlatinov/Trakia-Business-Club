@@ -75,6 +75,11 @@
         font-size: 1.3em;
     } 
 
+    /*-- Events --*/ 
+    #events .width-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     /*-- #Team --*/
     #team .width-wrapper {
         display: grid;
