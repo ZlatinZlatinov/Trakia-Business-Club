@@ -1,9 +1,11 @@
-.menu-icon { /*For hambutger menu*/
-    display: none; 
+.menu-icon {
+    /*For hambutger menu*/
+    display: none;
 }
 
-#menu-toggle{
-    display: none; /*For hambutger menu*/
+#menu-toggle {
+    display: none;
+    /*For hambutger menu*/
 }
 
 header.site-header {
@@ -23,28 +25,52 @@ nav.main-nav ul {
     text-align: center;
 }
 
+nav.main-nav ul li {
+    position: relative;
+}
+
 nav.main-nav ul a {
     text-decoration: none;
     font-size: 1.5em;
     text-transform: uppercase;
     color: white;
     letter-spacing: 1.2px;
+    position: relative;
+    padding: 0.5em 0em;
 }
 
-nav.main-nav ul a:hover {
-    color: goldenrod;
+nav.main-nav ul a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: goldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
+
+nav.main-nav ul a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* nav.main-nav ul a:hover {
+    color: goldenrod;
+} */
 
 nav.main-nav ul a:active {
     color: #dea556;
-} 
+}
 
 /*Site-logo*/
 p.site-logo {
     padding-bottom: 0em;
 }
 
-p.site-logo a{
+p.site-logo a {
     width: 165px;
     height: 125px;
     border-radius: 50%;
@@ -66,9 +92,9 @@ p.site-logo a{
     text-align: center;
     display: block;
     color: white;
-} 
+}
 
-.user-icon{
+.user-icon {
     list-style: none inside;
 }
 
