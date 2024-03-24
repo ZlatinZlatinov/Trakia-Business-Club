@@ -54,12 +54,6 @@ p.site-logo a{
     align-items: center;
 }
 
-p.site-logo a img{
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 /* ---- User Icon ----*/
 .user {
     position: relative;

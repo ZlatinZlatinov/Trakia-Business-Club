@@ -12,7 +12,7 @@
     }
     
     nav.main-nav ul a {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     
     nav.main-nav ul a:active {
@@ -132,7 +132,7 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 2em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     /* -- #Profile -- */
@@ -205,5 +205,14 @@
     /*admin-buttons*/
     #details-admin .admin-buttons {
         gap: 1.5em;
+    } 
+
+    #details-admin .admin-buttons a {
+        font-size: 1.2em;
+    }
+
+    /*Partners*/
+    .partner-card {
+        padding: 2em;
     }
 }

@@ -15,8 +15,5 @@
 }
 
 #intro img {
-    display: block;
-    width: 100%;
-    height: auto;
     opacity: 0.7;
 }

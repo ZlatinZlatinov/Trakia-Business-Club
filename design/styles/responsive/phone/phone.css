@@ -3,7 +3,7 @@
 
 @media screen and (max-width: 603px) {
     .width-wrapper {
-        max-width: 80vw;
+        max-width: 85vw;
     }
 
     /* ---- User Icon ----*/
@@ -13,7 +13,7 @@
 
     /*#Intro */
     #intro h1.site-theme {
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     /*About*/
@@ -105,6 +105,7 @@
     /*-- #Events --*/
     #events .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
     }
 
     .event-card p {

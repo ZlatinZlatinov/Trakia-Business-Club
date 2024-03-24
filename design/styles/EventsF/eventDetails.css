@@ -26,9 +26,6 @@
 }
 
 .event-gallery .event-gallery-card img {
-    display: block;
-    width: 100%;
-    height: auto;
     filter: blur(1.1px);
 }
 
@@ -42,9 +39,6 @@
 }
 
 .event-description img {
-    display: block;
-    width: 100%;
-    height: auto;
     padding-bottom: 1em;
 }
 
