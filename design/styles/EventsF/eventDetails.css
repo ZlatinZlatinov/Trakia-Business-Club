@@ -26,9 +26,8 @@
 }
 
 .event-gallery .event-gallery-card img {
-    display: block;
-    width: 100%;
-    height: auto;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
     filter: blur(1.1px);
 }
 
@@ -42,9 +41,6 @@
 }
 
 .event-description img {
-    display: block;
-    width: 100%;
-    height: auto;
     padding-bottom: 1em;
 }
 
@@ -98,4 +94,64 @@
 
 .add-img-btn {
     background-color: rgb(158, 158, 28);
+} 
+
+/*gallery-modal*/ 
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: -1px;
+    animation: zoom 0.3s ease-in-out;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+} 
+
+.modal img {
+    width: 70%;
+    object-fit: cover;
+} 
+
+.closeBtn {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+} 
+
+.nextBtn {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    position: absolute; 
+    margin: 20px; 
+    right: 0;
+} 
+
+.prevBtn {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 25px;
+    position: absolute; 
+    margin: 20px; 
+    left: 0;
+}
+
+.closeBtn:hover {
+    color: rgb(255, 255, 255);
 }

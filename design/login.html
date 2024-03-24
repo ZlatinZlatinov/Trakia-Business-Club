@@ -10,6 +10,8 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Captcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="styles/style.css">
     <title>Trakia Buisiness Club</title>
 </head>
@@ -33,7 +35,7 @@
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="index.html#about">About Us</a></li>
                 <li><a href="events.html">Events &amp; News</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -73,6 +75,7 @@
                             <input type="email" name="email" id="email" placeholder="Email">
                             <input type="password" name="password" id="password" placeholder="Passoword">
                             <input type="password" name="re-pass" id="re-pass" placeholder="Repeat Password">
+                            <div class="g-recaptcha" data-sitekey="6LfTOKMpAAAAAD4LXNpAWSlyz5xFFvcy2kqS3d2M"></div>
                             <input class="submit-btn" type="submit" value="Sign Up">
                         </form>
                     </div>
@@ -85,6 +88,7 @@
                             <input type="email" name="email" id="lemail" placeholder="Email">
                             <input type="password" name="password" id="lpassword" placeholder="Passoword">
                             <a href="#">Forgot Passoword?</a>
+                            <div class="g-recaptcha" data-sitekey="6LfTOKMpAAAAAD4LXNpAWSlyz5xFFvcy2kqS3d2M"></div>
                             <input class="submit-btn" type="submit" value="Sign In">
                         </form>
                     </div>
@@ -137,7 +141,7 @@
                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
             </ul>
-        </div> 
+        </div>
 
         <p class="copyright">&copy; 2024 All rights reserved.</p>
     </footer>

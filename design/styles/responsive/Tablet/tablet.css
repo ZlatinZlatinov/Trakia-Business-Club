@@ -12,7 +12,7 @@
     }
     
     nav.main-nav ul a {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     
     nav.main-nav ul a:active {
@@ -25,8 +25,13 @@
     
     /*Site-logo*/ 
     p.site-logo a{
-        width: 100px;
-        height: 70px;
+        width: 120px;
+        height: 90px;
+    } 
+
+    /*User icon*/
+    .user-icon a.icn {
+        font-size: 2.5em;
     }
 
     /*#Intro */
@@ -49,14 +54,7 @@
     }
 
     /*-- #Goals --*/
-    #about h2,
-    #team h2,
-    #goals h2,
-    #details-admin h2,
-    #events h2,
-    #contacts h2,
-    #faq h2,
-    #partners h2 {
+    .section-heading {
         font-size: 2.2em;
     }
 
@@ -69,6 +67,11 @@
     .goal-card {
         font-size: 1.3em;
     } 
+
+    /*-- Events --*/ 
+    #events .width-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     /*-- #Team --*/
     #team .width-wrapper {
@@ -129,7 +132,7 @@
         justify-content: space-between;
         align-items: center;
         padding-top: 2em;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     /* -- #Profile -- */
@@ -202,5 +205,14 @@
     /*admin-buttons*/
     #details-admin .admin-buttons {
         gap: 1.5em;
+    } 
+
+    #details-admin .admin-buttons a {
+        font-size: 1.2em;
+    }
+
+    /*Partners*/
+    .partner-card {
+        padding: 2em;
     }
 }

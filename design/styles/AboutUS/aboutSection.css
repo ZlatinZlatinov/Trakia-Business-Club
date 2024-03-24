@@ -18,9 +18,6 @@
 }
 
 #about .width-wrapper img {
-    display: block;
-    width: 100%;
-    height: auto;
     align-self: center;
 }
 
@@ -29,8 +26,7 @@
 }
 
 #about .width-wrapper p {
-    font-size: 1.6em;
-    color: #434443;
+    font-size: 1.5em;
     text-align: justify;
 }
 
@@ -39,7 +35,7 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
     padding: 0.5em;
     display: block;
     font-weight: bold;
