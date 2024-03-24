@@ -26,6 +26,10 @@
     color: white;
 } 
 
+#site-footer .site-footer ul a:hover {
+    color: goldenrod;
+}
+
 #site-footer .site-footer .footer-nav {
     flex-direction: column;
 } 

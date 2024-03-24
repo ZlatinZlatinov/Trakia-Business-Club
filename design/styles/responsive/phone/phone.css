@@ -1,13 +1,13 @@
 @import url(navigation.css);
 @import url(footer.css);
 
-@media screen and (max-width: 603px){
+@media screen and (max-width: 603px) {
     .width-wrapper {
         max-width: 80vw;
     }
 
     /* ---- User Icon ----*/
-    .user-icon{
+    .user-icon {
         display: none;
     }
 
@@ -45,13 +45,8 @@
 
     }
 
-    /*-- #Goals --*/ 
-    #team h2,
-    #goals h2,
-    #events h2,
-    #contacts h2,
-    #about h2,
-    #faq h2 {
+    /*-- #Goals --*/
+    .section-heading {
         text-align: center;
         padding-bottom: 1em;
         font-size: 1.6em;
@@ -90,18 +85,18 @@
     }
 
     /*-- #Partners --*/
-    #partners h2{
+    #partners h2 {
         font-size: 1.6em;
     }
 
     #partners .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
         gap: 1.5em;
-    } 
+    }
 
     .partner-card {
         padding: 1em;
-    } 
+    }
 
     .partner-card img {
         filter: none;
@@ -132,7 +127,7 @@
     .contact-form form {
         font-size: 1.4em;
         font-weight: bold;
-    } 
+    }
 
     #contacts .contact-form form .input-container {
         grid-template-columns: auto;
@@ -149,35 +144,35 @@
         font-weight: bold;
     }
 
-    #map iframe{
+    #map iframe {
         height: 400px;
-    } 
+    }
 
     /*not-found*/
     #not-found p {
         font-size: 5em;
-    } 
+    }
 
-    #not-found p span{
+    #not-found p span {
         font-size: 2em;
-    } 
+    }
 
     /*auth*/
     .auth-container {
         font-size: 1em;
         width: 90%;
-    } 
+    }
 
     .ghost {
         width: 80%;
-    } 
+    }
 
-    /*profile*/ 
+    /*profile*/
     #profile .grid-container {
         grid-template-columns: repeat(1, 1fr);
         font-size: 1.2em;
         grid-area: 1.5em;
-    } 
+    }
 
     #profile .grid-container .side-item {
         grid-row: 1;
@@ -186,29 +181,30 @@
     #profile .grid-container .main-item {
         grid-column: 1;
         grid-row: 2;
-    } 
+    }
 
     #profile .grid-container .bottom-item {
         grid-column: 1;
         grid-row: 3;
     }
+
     #profile .grid-container .option-btns {
         flex-direction: column;
     }
 
-    /*#Create*/ 
-    #create .create-form h2{
+    /*#Create*/
+    #create .create-form h2 {
         font-size: 1.2em;
     }
 
     .create-form label {
         font-size: 1em;
-    }  
+    }
 
     /*Team*/
     #team .width-wrapper {
         grid-template-columns: repeat(2, 1fr);
-    } 
+    }
 
     /*Eveit-Details*/
     #details-admin .admin-buttons {

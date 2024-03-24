@@ -27,12 +27,12 @@ nav.main-nav ul a {
     text-decoration: none;
     font-size: 1.5em;
     text-transform: uppercase;
-    color: goldenrod;
+    color: white;
     letter-spacing: 1.2px;
 }
 
 nav.main-nav ul a:hover {
-    color: white;
+    color: goldenrod;
 }
 
 nav.main-nav ul a:active {
@@ -64,19 +64,14 @@ p.site-logo a img{
 .user {
     position: relative;
     display: inline-block;
-} 
-
-/* .user a {
-    text-decoration: none;
-    color: #777;
-} */
+}
 
 .user-icon a.icn {
     font-size: 3em;
     text-decoration: none;
     text-align: center;
     display: block;
-    color: #777;
+    color: white;
 } 
 
 .user-icon{
