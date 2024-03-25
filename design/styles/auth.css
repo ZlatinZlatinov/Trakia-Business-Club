@@ -44,10 +44,14 @@ form {
     height: 100%;
     transition: all 0.6s ease-in-out;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-color: white;
-} 
+}  
+
+.form-container div#cth>div>div {
+    width: 200px !important;
+}
 
 .sign-in-container {
     left: 0;
