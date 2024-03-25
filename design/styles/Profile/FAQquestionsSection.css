@@ -55,4 +55,40 @@
     padding: 1em 1.5em;
     display: none;
     transition: ease-in-out display 1s;
+} 
+
+.faq-card:nth-child(2) {
+    transition-delay: 250ms;
+} 
+
+.faq-card:nth-child(3) {
+    transition-delay: 550ms;
+} 
+
+.faq-card:nth-child(4) {
+    transition-delay: 850ms;
+} 
+
+.faq-card:nth-child(5) {
+    transition-delay: 1150ms;
+} 
+
+.faq-card:nth-child(6) {
+    transition-delay: 1450ms;
+} 
+
+.faq-card:nth-child(7) {
+    transition-delay: 1750ms;
+} 
+
+.faq-card:nth-child(8) {
+    transition-delay: 2050ms;
+} 
+
+.faq-card:nth-child(9) {
+    transition-delay: 2350ms;
+} 
+
+.faq-card:nth-child(10) {
+    transition-delay: 2650ms;
 }

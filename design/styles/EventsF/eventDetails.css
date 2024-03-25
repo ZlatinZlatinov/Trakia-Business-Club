@@ -108,7 +108,7 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.733);
     margin-top: -1px;
-    animation: zoom 0.3s ease-in-out;
+    animation: zoom 0.5s ease-in-out;
 }
 
 @keyframes zoom {
