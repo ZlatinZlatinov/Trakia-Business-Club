@@ -1,0 +1,58 @@
+/*-- FAQ questions --*/
+#faq {
+    padding: 2em 0em;
+    background-color: #e6e6e6;
+}
+
+#faq .width-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.faq-card {
+    width: 80%;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.59em;
+    overflow: hidden;
+}
+
+.faq-card .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq-card .active {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.accordion i {
+    font-size: 1.5em;
+    color: #4c1b78;
+}
+
+.faq-card .panel {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    padding: 1em 1.5em;
+    display: none;
+    transition: ease-in-out display 1s;
+}

@@ -17,17 +17,22 @@
 <body>
 
     <!-- Header -->
-    <header class="site-header width-wrapper">
+    <header id="header" class="site-header width-wrapper">
         <!-- Logo -->
         <p class="site-logo">
-            <a href="#"><img src="images/final-logo-modified (1).png" alt="site-logo"></a>
+            <a href="#"><img src="images/logo.jpg" alt="site-logo"></a>
         </p>
 
         <!-- Navigation -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu__btn">
+            <span></span>
+        </label>
+
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="index.html#about">About Us</a></li>
                 <li><a href="events.html">Events &amp; News</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -40,8 +45,7 @@
                 <li><a href="#" class="icn"><i class="fa-regular fa-circle-user"></a></i>
                     <ul>
                         <li><a href="create.html">Create</a></li>
-                        <li><a href="#">My Profile</a></li>
-                        <li><a href="favourites.html">My Favourites</a></li>
+                        <li><a href="profile.html">My Profile</a></li>
                         <li><a href="404.html">Logout</a></li>
                     </ul>
                 </li>
@@ -57,19 +61,6 @@
             <section id="details">
                 <div class="width-wrapper">
 
-                    <!-- event-info -->
-                    <div class="event-info">
-                        <h2>Cyber Security and New Technologies</h2>
-
-                        <p><i class="fa-regular fa-calendar-days"></i> 
-                            Wednesday, February 21, 2024
-                            <br>
-                            <i class="fa-solid fa-clock"></i> 11:00 - 13:00
-                        </p>
-
-                        <p><i class="fa-solid fa-location-pin"></i> Академичен Информационен Център</p>
-                    </div>
-
                     <!-- event-description -->
                     <div class="event-description">
                         <img src="images/event-image2.jpg" alt="">
@@ -84,26 +75,101 @@
                             технологиите.
                             Организирането на подобни инициативи има за цел да обедини студентската общност в рамките на
                             форума, посветен на иновациите в бързоразвиващия се технологичен свят.
-                        </p> 
+                        </p>
+                    </div>
+
+                    <!-- event-info -->
+                    <div class="event-info">
+                        <!-- Event-details-date-location -->
+                        <div>
+                            <h2>Cyber Security and New Technologies</h2>
+
+                            <p><i class="fa-regular fa-calendar-days"></i>
+                                Wednesday, February 21, 2024
+                                <br>
+                                <i class="fa-solid fa-clock"></i> 11:00 - 13:00
+                            </p>
+
+                            <p><i class="fa-solid fa-location-pin"></i> Академичен Информационен Център</p>
+                        </div>
+
+                        <!-- Event-details-gallery -->
+                        <div>
+                            <h3>View Gallery</h3>
+                            <div class="event-gallery">
+                                <div class="event-gallery-card">
+                                    <img src="images/demo.png" alt="">
+                                </div>
+
+                                <div class="event-gallery-card">
+                                    <img src="images/demo2.png" alt="">
+                                </div>
+
+                                <div class="event-gallery-card">
+                                    <img src="images/demo.png" alt="">
+                                </div>
+
+                                <div class="event-gallery-card">
+                                    <img src="images/demo2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    
 
                         <button class="submit-btn">Register</button>
                     </div>
+                </div>
+            </section> 
+
+            <!-- Only for Admins -->
+            <section id="details-admin">
+                <h2 class="section-heading">Admin Panel</h2>
+                <div class="width-wrapper">
+                    <ul class="admin-buttons">
+                        <li><button class="add-img-btn"><a href="#"><i class="fa-solid fa-plus"></i> Add Images</a></button></li>
+                        <li><button class="edit-btn"><a href="#"><i class="fa-regular fa-pen-to-square"></i> Edit</a></button></li>
+                        <li><button class="delete-btn"><a href="#"><i class="fa-regular fa-trash-can"></i> Delete</a></button></li>
+                        <li><button class="visible-btn"><a href="#"><i class="fa-regular fa-eye-slash"></i> Visible</a></button></li>
+                        <li><button class="save-btn"><a href="#"><i class="fa-regular fa-floppy-disk"></i> Save</a></button></li>
+                    </ul>
                 </div>
             </section>
         </article>
     </main>
 
     <!-- Site Footer -->
-    <footer class="site-footer width-wrapper">
-        <p>&copy; 2024 All rights reserved.</p>
+    <footer id="site-footer">
+        <div class="site-footer width-wrapper">
+            <p class="site-logo">
+                <a href="#"><img src="images/logo.jpg" alt="site-logo"></a>
+            </p>
 
-        <ul class="socials">
-            <li><a href="#"><i class="fa-brands fa-meta"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
-    </footer>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="events.html">Events &amp; News</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+
+            <ul class="footer-nav">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="questions.html">FAQ</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+            </ul>
+
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-meta"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+
+        <p class="copyright">&copy; 2024 All rights reserved.</p>
+    </footer> 
+
+    <script defer src="scripts/eventGallety.js"></script>
 </body>
 
 </html>

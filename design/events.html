@@ -17,18 +17,23 @@
 <body>
 
     <!-- Header -->
-    <header class="site-header width-wrapper">
+    <header id="header" class="site-header width-wrapper">
         <!-- Logo -->
         <p class="site-logo">
-            <a href="#"><img src="images/final-logo-modified (1).png" alt="site-logo"></a>
+            <a href="#"><img src="images/logo.jpg" alt="site-logo"></a>
         </p>
 
         <!-- Navigation -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu__btn">
+            <span></span>
+        </label>
+
         <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Events &amp; News</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="events.html">Events &amp; News</a></li>
                 <li><a href="team.html">Team</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -40,8 +45,7 @@
                 <li><a href="#" class="icn"><i class="fa-regular fa-circle-user"></a></i>
                     <ul>
                         <li><a href="create.html">Create</a></li>
-                        <li><a href="#">My Profile</a></li>
-                        <li><a href="favourites.html">My Favourites</a></li>
+                        <li><a href="profile.html">My Profile</a></li>
                         <li><a href="404.html">Logout</a></li>
                     </ul>
                 </li>
@@ -51,11 +55,11 @@
 
     <!-- Main -->
     <main class="site-main">
-        <article >
+        <article>
             <!-- #Events -->
             <section id="events">
 
-                <h2>Events</h2>
+                <h2 class="section-heading">Events</h2>
 
                 <div class="width-wrapper">
                     <!-- event-card -->
@@ -67,8 +71,8 @@
 
                             <h4 class="event-title">Отвъд логиката: Емоционална интелигентност за вземане на решения,
                                 които водят до успех</h4>
-                            </a>
-                            <p>Feb 21, 2024</p>
+                        </a>
+                        <p>Feb 21, 2024</p>
                     </div>
 
                     <!-- event-card -->
@@ -108,7 +112,7 @@
                                 които водят до успех</h4>
                             <p>Feb 21, 2024</p>
                         </a>
-                    </div> 
+                    </div>
 
                     <!-- event-card -->
                     <div class="event-card">
@@ -149,7 +153,7 @@
                     </div>
 
                     <!-- event-card -->
-                    
+
                     <div class="event-card">
                         <a href="details.html">
                             <span class="event-date">FEB<br>21</span>
@@ -174,20 +178,41 @@
                     <li><a href="#">...</a></li>
                     <li><a href="#">10</a></li>
                 </ul>
+            </section>
             </div>
         </article>
     </main>
 
     <!-- Site Footer -->
-    <footer class="site-footer width-wrapper">
-        <p>&copy; 2024 All rights reserved.</p>
+    <footer id="site-footer">
+        <div class="site-footer width-wrapper">
+            <p class="site-logo">
+                <a href="#"><img src="images/logo.jpg" alt="site-logo"></a>
+            </p>
 
-        <ul class="socials">
-            <li><a href="#"><i class="fa-brands fa-meta"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-        </ul>
+            <ul class="footer-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="events.html">Events &amp; News</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+
+            <ul class="footer-nav">
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="questions.html">FAQ</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="profile.html">My Profile</a></li>
+            </ul>
+
+            <ul class="socials">
+                <li><a href="#"><i class="fa-brands fa-meta"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div> 
+
+        <p class="copyright">&copy; 2024 All rights reserved.</p>
     </footer>
 </body>
 

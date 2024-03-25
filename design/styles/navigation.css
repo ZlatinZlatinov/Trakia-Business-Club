@@ -1,62 +1,100 @@
+.menu-icon {
+    /*For hambutger menu*/
+    display: none;
+}
+
+#menu-toggle {
+    display: none;
+    /*For hambutger menu*/
+}
+
 header.site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1em;
+    padding: 1em 0em;
+    gap: 1em;
 }
 
 nav.main-nav ul {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     list-style: none inside;
     gap: 5em;
+    text-align: center;
+}
+
+nav.main-nav ul li {
+    position: relative;
 }
 
 nav.main-nav ul a {
     text-decoration: none;
     font-size: 1.5em;
     text-transform: uppercase;
-    color: goldenrod;
+    color: white;
     letter-spacing: 1.2px;
+    position: relative;
+    padding: 0.5em 0em;
 }
 
-nav.main-nav ul a:hover {
-    color: white;
+nav.main-nav ul a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: goldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
+
+nav.main-nav ul a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+/* nav.main-nav ul a:hover {
+    color: goldenrod;
+} */
 
 nav.main-nav ul a:active {
     color: #dea556;
-} 
+}
 
-p.site-logo a img{
-    display: block;
-    width: 100%;
-    height: auto;
-    background-color: white;
+/*Site-logo*/
+p.site-logo {
+    padding-bottom: 0em;
+}
+
+p.site-logo a {
+    width: 165px;
+    height: 125px;
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ---- User Icon ----*/
 .user {
     position: relative;
     display: inline-block;
-} 
-
-/* .user a {
-    text-decoration: none;
-    color: #777;
-} */
+}
 
 .user-icon a.icn {
     font-size: 3em;
     text-decoration: none;
     text-align: center;
     display: block;
-    color: #777;
-} 
+    color: white;
+}
 
-.user-icon{
+.user-icon {
     list-style: none inside;
 }
 

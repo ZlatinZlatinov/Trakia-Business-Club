@@ -8,4 +8,20 @@
 @import url(layout-actual.css); 
 
 /* -- Navigation -- */
-@import url(navigation.css);
+@import url(navigation.css); 
+
+/* -- Auth -- */
+/* @import url(auth.css);  */
+
+/* -- Register -- */
+@import url(register.css);
+
+/* -- Create -- */
+@import url(Profile/create.css); 
+
+/* -- Profile -- */
+
+@import url(Profile/profile.css);
+
+/* -- Responsive -- */
+@import url(responsive/responsive.css); 
