@@ -11,7 +11,10 @@
 @import url(navigation.css); 
 
 /* -- Auth -- */
-@import url(auth.css); 
+/* @import url(auth.css);  */
+
+/* -- Register -- */
+@import url(register.css);
 
 /* -- Create -- */
 @import url(Profile/create.css); 

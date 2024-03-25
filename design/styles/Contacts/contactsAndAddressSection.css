@@ -16,6 +16,16 @@
     color: #99182c;
 }
 
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.contact-form form div.text-area {
+    width: 100%;
+}
 .contact-form label {
     display: block;
     text-align: left;
