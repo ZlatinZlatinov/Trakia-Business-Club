@@ -2,11 +2,19 @@
 #team .width-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5em;
+    gap: 3.5em;
 }
 
 .team-card {
+    position: relative;
     text-align: center;
+    padding: 2em; 
+    background-color: white;
+    border-radius: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 10px 10px 14px -1px rgba(0, 0, 0, 0.71);
 }
 
 .team-card img {
@@ -15,4 +23,9 @@
 
 .team-card h3 {
     font-size: 1.5em;
+    position: relative;
+} 
+
+.team-card span {
+    font-size: 1.2em;
 }
