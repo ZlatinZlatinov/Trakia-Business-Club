@@ -39,7 +39,7 @@ nav.main-nav ul a {
     padding: 0.5em 0em;
 }
 
-nav.main-nav ul a:after {
+nav.main-nav ul a:after{
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
