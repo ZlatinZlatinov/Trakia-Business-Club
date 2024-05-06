@@ -1,12 +1,12 @@
-<?php 
-    echo $id;
-?>
+
 
 <main class="site-main">
+
     <!-- #Details -->
     <section id="details">
         <div class="width-wrapper">
 
+            <!-- event-description -->
             <!-- event-description -->
             <?php
                 $query = "SELECT * from events WHERE id = $id"; 
@@ -30,17 +30,41 @@
             <!-- event-info -->
             <div class="event-info">
                 <!-- Event-details-date-location -->
-                <div>
-                    <h2>Cyber Security and New Technologies</h2>
+                <?php
+                    $query = "SELECT * from events WHERE id = $id"; 
+                    $result = mysqli_query($connectionString, $query); // Query the database
+                    $num_results = $result->num_rows; 
 
-                    <p><i class="fa-regular fa-calendar-days"></i>
-                        Wednesday, February 21, 2024
-                        <br>
-                        <i class="fa-solid fa-clock"></i> 11:00 - 13:00
-                    </p>
+                    while($row = $result->fetch_assoc()) { 
+                        echo "<div>"; 
+                        
+                        echo "<h2>". $row['topic'] . "</h2>";
+                    
+                        // Fetching date and time from database
+                        $startingDateResult = mysqli_query($connectionString, "SELECT DATE(eventStart) AS startDate FROM events WHERE id = $id");
+                        $startingDateRow = $startingDateResult->fetch_assoc();
+                        $startingDate = $startingDateRow['startDate'];
 
-                    <p><i class="fa-solid fa-location-pin"></i> Академичен Информационен Център</p>
-                </div>
+                        $endingDateResult = mysqli_query($connectionString, "SELECT DATE(eventEnd) AS endDate FROM events WHERE id = $id");
+                        $endingDateRow = $endingDateResult->fetch_assoc();
+                        $endingDate = $endingDateRow['endDate'];
+
+                        $startingTimeResult = mysqli_query($connectionString, "SELECT TIME(eventStart) AS startTime FROM events WHERE id = $id");
+                        $startingTimeRow = $startingTimeResult->fetch_assoc();
+                        $startingTime = $startingTimeRow['startTime'];
+
+                        $endingTimeResult = mysqli_query($connectionString, "SELECT TIME(eventEnd) AS endTime FROM events WHERE id = $id");
+                        $endingTimeRow = $endingTimeResult->fetch_assoc();
+                        $endingTime = $endingTimeRow['endTime'];
+
+                        echo "<p><i class='fa-regular fa-calendar-days'></i>" . $startingDate . " - " . $endingDate ."<br>" .
+                            "<i class='fa-solid fa-clock'></i>" . $startingTime . " - " . $endingTime . "</p>";
+
+                        echo "<p><i class='fa-solid fa-location-pin'></i>" . $row['place'] .  "</p>";
+
+                        echo "</div>"; 
+                    }
+                ?>
 
                 <!-- Event-details-gallery -->
                 <div>
@@ -70,7 +94,7 @@
         </div>
     </section> 
 
-    <!-- Only for Admins
+    <!-- Only for Admins -->
     <section id="details-admin">
         <h2 class="section-heading">Admin Panel</h2>
         <div class="width-wrapper">
@@ -82,5 +106,5 @@
                 <li><button class="save-btn"><a href="#"><i class="fa-regular fa-floppy-disk"></i> Save</a></button></li>
             </ul>
         </div>
-    </section> -->
+    </section>
 </main>
