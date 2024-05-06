@@ -33,3 +33,18 @@ CREATE TABLE content(
     title TEXT,
     imgURL VARCHAR(60)
 );
+
+-- Events table
+CREATE TABLE events
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	topic VARCHAR(100) NOT NULL,
+	place VARCHAR(200) NOT NULL,
+	imageFileName VARCHAR(200),
+	description VARCHAR(2000),
+	lecturer VARCHAR(100),
+	eventStart DATETIME,
+	eventEnd DATETIME,
+	optionalInformation VARCHAR(200),
+	isVisible VARCHAR(10)
+)
