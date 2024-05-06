@@ -8,3 +8,4 @@ Trakia Business Club Website
  ### 4. Uploads folder is for uploaded images from the server 
  ### 5. I will create example files with the config set-up 
  ### 6. I will also add links to video tutorials
+ ### 7. You will also need to download the PHPMailer library from here: [Link](https://github.com/PHPMailer/PHPMailer)
