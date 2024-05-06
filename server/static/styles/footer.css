@@ -1,0 +1,35 @@
+/*-- Footer --*/
+#site-footer .site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+    font-size: 1.5em;
+}
+
+#site-footer .copyright{
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    padding: 0.5em 0em;
+}
+
+#site-footer .site-footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none inside;
+    gap: 1.5em;
+}
+
+#site-footer .site-footer ul a {
+    text-decoration: none;
+    color: white;
+} 
+
+#site-footer .site-footer ul a:hover {
+    color: goldenrod;
+}
+
+#site-footer .site-footer .footer-nav {
+    flex-direction: column;
+} 

@@ -1,0 +1,94 @@
+/*-- FAQ questions --*/
+#faq {
+    padding: 2em 0em;
+    background-color: #e6e6e6;
+}
+
+#faq .width-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.faq-card {
+    width: 80%;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.59em;
+    overflow: hidden;
+}
+
+.faq-card .accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 1.5em;
+    width: 100%;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.faq-card .active {
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.accordion i {
+    font-size: 1.5em;
+    color: #4c1b78;
+}
+
+.faq-card .panel {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2em;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    padding: 1em 1.5em;
+    display: none;
+    transition: ease-in-out display 1s;
+} 
+
+.faq-card:nth-child(2) {
+    transition-delay: 250ms;
+} 
+
+.faq-card:nth-child(3) {
+    transition-delay: 550ms;
+} 
+
+.faq-card:nth-child(4) {
+    transition-delay: 850ms;
+} 
+
+.faq-card:nth-child(5) {
+    transition-delay: 1150ms;
+} 
+
+.faq-card:nth-child(6) {
+    transition-delay: 1450ms;
+} 
+
+.faq-card:nth-child(7) {
+    transition-delay: 1750ms;
+} 
+
+.faq-card:nth-child(8) {
+    transition-delay: 2050ms;
+} 
+
+.faq-card:nth-child(9) {
+    transition-delay: 2350ms;
+} 
+
+.faq-card:nth-child(10) {
+    transition-delay: 2650ms;
+}

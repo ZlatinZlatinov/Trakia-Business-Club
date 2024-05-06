@@ -1,0 +1,75 @@
+/*-- Layout --*/
+/*main color: #4c1b78*/
+
+/*#Intro Section*/
+@import url(Intro/introSection.css);
+
+/*About Section*/
+@import url(AboutUS/aboutSection.css);
+
+/*Goals Section*/
+@import url(Goals/goalsSection.css);
+
+/*Team Section*/
+@import url(Team/teamSection.css);
+
+/*Events Section*/
+@import url(EventsF/eventsSection.css);
+
+/*Pagination*/
+@import url(EventsF/pagination.css);
+
+/*Contacts and Address Section*/
+@import url(Contacts/contactsAndAddressSection.css);
+
+/*Event Details Section*/
+@import url(EventsF/eventDetails.css);
+
+/*-- FAQ questions Section--*/
+@import url(Profile/FAQquestionsSection.css);
+
+/*Back to Top button*/
+@import url(Back-To-Top-Button/BackToTopButton.css);
+
+/*Partners Section*/
+@import url(Partners/partnersSection.css);
+
+/*Page not Found*/
+@import url(Page-Not-Found/pageNotFoundPage.css);
+
+/*Footer Section*/
+@import url(footer.css);
+
+/*Contact Page Map*/
+@import url(Contacts/contactPageMap.css);
+
+body {
+    background-color: #4c1b78;
+    max-width: 100vw;
+}
+
+p,
+ul,
+ol {
+    padding-bottom: 1.5em;
+}
+
+.width-wrapper {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+/*Slide elements*/
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+} 
+
+.show {
+   opacity: 1; 
+   filter: blur(0);
+   transform: translateX(0);
+}

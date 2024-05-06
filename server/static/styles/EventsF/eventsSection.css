@@ -1,0 +1,40 @@
+/*-- #Events --*/
+#events .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5em;
+}
+
+.event-card {
+    position: relative;
+}
+
+.event-card a {
+    text-decoration: none;
+}
+
+.event-card p {
+    color: #9f253a;
+    font-size: 1.1em;
+}
+
+.event-date {
+    background-color: #e6e6e6;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5%;
+}
+
+.event-title {
+    color: #99182c;
+    font-size: 1.2em;
+    margin: 0.5em 0em;
+}

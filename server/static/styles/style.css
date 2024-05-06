@@ -1,0 +1,33 @@
+/* -- Reset -- */
+@import url(reset.css); 
+
+/* -- Typography -- */ 
+@import url(typography.css); 
+
+/* -- Layout -- */ 
+@import url(layout-actual.css); 
+
+/* -- Navigation -- */
+@import url(navigation.css); 
+
+/* -- Auth -- */
+/* @import url(auth.css);  */
+
+/* -- Register -- */
+@import url(register.css);
+
+/* -- Create -- */
+@import url(Profile/create.css); 
+
+/* -- Profile -- */
+
+@import url(Profile/profile.css);
+
+/* -- Responsive -- */
+@import url(responsive/responsive.css); 
+
+/* -- Login2 -- */
+/* @import url(login2.css); */ 
+
+/* -- Admin panel -- */
+@import url(panel.css);

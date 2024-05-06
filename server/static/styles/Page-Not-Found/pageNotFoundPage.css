@@ -1,0 +1,29 @@
+/*-- #Not found --*/
+#not-found {
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#not-found p {
+    background: url(../../images/uni-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 0; 
+    letter-spacing: 2pt;
+    font-size: 10em;
+} 
+
+#not-found p span {
+    font-size: 3em;
+}

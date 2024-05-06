@@ -1,0 +1,32 @@
+/*-- Pagination ---*/
+.pagination {
+    display: flex;
+    align-content: center;
+    padding-top: 2em;
+}
+
+.pagination ul {
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+}
+
+.pagination ul li {
+    border-right: 1px solid #777;
+    padding: 0em 1em;
+}
+
+.pagination ul li:last-child {
+    border: none;
+}
+
+.pagination ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #6a6565;
+    font-size: 1.3em;
+}
+
+.pagination ul li a:active {
+    border-bottom: 0.8px solid #777;
+}

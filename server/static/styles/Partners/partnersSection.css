@@ -1,0 +1,27 @@
+/*-- #Partners --*/
+#partners {
+    background-color: white;
+    padding: 4em 0em;
+}
+
+#partners .width-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3em;
+}
+
+.partner-card {
+    padding: 3em;
+    background-color: #e6e6e6;
+    border-radius: 0.5em;
+}
+
+.partner-card img {
+    border-radius: 0.5em;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+
+.partner-card img:hover {
+    filter: none;
+}
